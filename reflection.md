@@ -1,0 +1,7 @@
+For the class Birthday:
+For the set_month solution, I overthought the answer. In my solution I checked if the month between 1 and 12 and then set the month to itself. I also checked if the day was outside of the range of days in the month, and if it was, I set the day to the max date in that month. In the solutions posted, the range of the months was only checked. 
+In the function days_until(), I obtained today's date correctly and called on the function day_in_year to compute the number of days that has passed since the start of the year. I think checked if the date of today was before or after the birthday and calculated the days until the birthday based on that. In the solution, the way of which the number of days have passed was computed differently within the two for loops, but our logic was the same. 
+
+For the class Person:
+
+In the funciton say_birthday(), our solution followed the same logic but had a different format. We both created a list of strings of the names of the months. Then, we focused on the ending of the day's date (st,th,nd,rd). I used if statements to see if the day was the ones associated with the number while the solution checked if the day was in a list of the dates for each suffix. Overall, the logic was very similar but the basic formatting differed.
